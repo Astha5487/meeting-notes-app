@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: tiny utility tweaks */
+.container-base {
+  @apply max-w-3xl mx-auto p-4;
+}
+.input {
+  @apply w-full border rounded-md p-2 outline-none;
+}
+.btn {
+  @apply px-4 py-2 rounded-md border text-sm;
+}
+.btn-primary {
+  @apply bg-black text-white hover:bg-gray-800;
+}
+.btn-ghost {
+  @apply hover:bg-gray-100;
+}
+.label {
+  @apply text-sm font-medium text-gray-700;
+}
+.card {
+  @apply border rounded-lg p-3 bg-white;
+}

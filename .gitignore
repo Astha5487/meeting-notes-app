@@ -1,0 +1,17 @@
+# Backend (Spring Boot)
+meetingnotes/target/
+meetingnotes/*.log
+meetingnotes/*.class
+meetingnotes/.idea/
+meetingnotes/*.iml
+
+# Frontend (React)
+meeting-notes-summarizer/node_modules/
+meeting-notes-summarizer/build/
+meeting-notes-summarizer/dist/
+meeting-notes-summarizer/.env
+
+# Common
+.DS_Store
+
+
