@@ -18,19 +18,20 @@ Built with a **React frontend** and **Spring Boot backend**, integrated with **O
 
 ## 📂 Project Structure  
 
-meeting-notes-app/
-│
-├── meeting-notes-summarizer/ # React frontend
-│ ├── src/
-│ └── package.json
-│
-├── meetingnotes/ # Spring Boot backend
-│ ├── src/main/java/com/elyx/health
-│ ├── src/main/resources/
-│ │ └── application.properties # Uses env variables
-│ └── pom.xml
-│
-└── README.md
+meeting-notes-app/  
+│  
+├── meeting-notes-summarizer/    # React frontend  
+│   ├── src/  
+│   └── package.json  
+│  
+├── meetingnotes/                # Spring Boot backend  
+│   ├── src/main/java/com/elyx/health  
+│   ├── src/main/resources/  
+│   │   └── application.properties   # Uses env variables  
+│   └── pom.xml  
+│  
+└── README.md  
+
 
 yaml
 Copy
@@ -149,12 +150,3 @@ Backend → Heroku / Render / AWS Elastic Beanstalk
 Frontend → Vercel / Netlify
 
 Make sure to set environment variables in your deployment platform.
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
